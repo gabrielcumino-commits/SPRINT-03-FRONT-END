@@ -1,6 +1,4 @@
-// ==============================
-// MENU / NAVEGAÇÃO
-// ==============================
+
 
 document.querySelectorAll('a[href^="#"]').forEach(link => {
 
