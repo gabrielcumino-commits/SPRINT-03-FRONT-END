@@ -1,7 +1,3 @@
-/* =========================
-   VARIÁVEIS — PADRÃO JOVI (AZUL)
-========================= */
-
 :root {
     --bg: #05070f;
     --bg-soft: #080b18;
@@ -78,4 +74,12 @@ img, svg {
 :focus-visible {
     outline: 2px solid var(--blue-light);
     outline-offset: 3px;
+}
+
+.include-error {
+    width: 100%;
+    padding: 24px 30px;
+    color: #f1405a;
+    border: 1px solid #f1405a;
+    background: rgba(241, 64, 90, 0.08);
 }

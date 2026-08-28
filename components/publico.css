@@ -1,0 +1,51 @@
+/* =========================
+   PÚBLICO-ALVO — COMPONENTES
+========================= */
+
+.mini-phone {
+    width: 190px;
+    height: 380px;
+
+    border-radius: 30px;
+    border: 7px solid var(--border);
+
+    background: var(--surface-hover);
+
+    display: grid;
+    place-items: center;
+    color: var(--blue-light);
+
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.6);
+}
+
+.mini-phone svg {
+    width: 60px;
+    height: 60px;
+}
+
+.audience-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--blue-soft);
+    color: var(--blue-light);
+    display: grid;
+    place-items: center;
+}
+
+.audience-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.audience-items h3 {
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.audience-items p {
+    color: var(--muted);
+    font-size: 13px;
+}

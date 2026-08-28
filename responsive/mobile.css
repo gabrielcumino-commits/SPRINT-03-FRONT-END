@@ -1,0 +1,105 @@
+
+@media (max-width: 600px) {
+
+    .navbar {
+        min-height: 65px;
+        padding: 0 20px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .hero {
+        padding: 120px 20px 70px;
+    }
+
+    .hero h1 {
+        font-size: 46px;
+        letter-spacing: -3px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .hero-stats {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .phone {
+        width: 220px;
+        height: 450px;
+    }
+
+    .section {
+        padding: 80px 20px;
+    }
+
+    .section-title {
+        margin-bottom: 45px;
+    }
+
+    .section-title h2,
+    .audience-content h2 {
+        font-size: 40px;
+    }
+
+    .solution-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .solution-card {
+        min-height: 220px;
+    }
+
+    .audience-image {
+        min-height: 320px;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .member {
+        min-height: 180px;
+    }
+
+    .gallery-phone {
+        width: 150px;
+        height: 290px;
+    }
+
+    .gallery-item.large {
+        min-height: 430px;
+    }
+
+    .gallery-mockup,
+    .gallery-icon {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .contact-form,
+    .contact-info {
+        padding: 24px;
+    }
+
+    .footer {
+        padding: 30px 20px;
+    }
+}
+
+
+/* =========================
+   MOVIMENTO REDUZIDO
+========================= */
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .solution-card, .member, .gallery-item, .button, .nav-toggle span, .nav-links {
+        transition: none;
+    }
+}

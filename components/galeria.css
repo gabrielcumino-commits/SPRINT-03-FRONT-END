@@ -1,0 +1,137 @@
+.gallery-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 30px;
+
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.gallery-item:hover {
+    border-color: var(--border-hover);
+}
+
+.gallery-phone {
+    width: 180px;
+    height: 350px;
+
+    background: var(--surface-hover);
+    border: 6px solid var(--border-hover);
+    border-radius: 30px;
+
+    position: relative;
+
+    display: grid;
+    place-items: center;
+
+    transform: rotate(-8deg);
+    box-shadow: 0 25px 60px rgba(61, 90, 254, 0.18);
+}
+
+.gallery-phone .camera {
+    position: absolute;
+    top: 12px;
+
+    width: 55px;
+    height: 18px;
+
+    border-radius: 20px;
+    background: #020309;
+}
+
+.gallery-logo {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--blue-light);
+}
+
+.gallery-caption {
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+}
+
+.gallery-caption span,
+.gallery-content span {
+    color: var(--muted-soft);
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.gallery-caption h3 {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.gallery-content {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery-content h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.gallery-content p {
+    color: var(--muted);
+    font-size: 13px;
+    max-width: 300px;
+}
+
+.gallery-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: var(--blue-soft);
+    color: var(--blue-light);
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.gallery-icon svg {
+    width: 22px;
+    height: 22px;
+}
+
+.gallery-mockup {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 130px;
+    height: 84px;
+    background: var(--surface-hover);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.gallery-mockup .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.gallery-mockup .dot-a { background: var(--blue); }
+.gallery-mockup .dot-b { background: var(--blue-light); opacity: .6; }
+
+.gallery-mockup .bar {
+    display: block;
+    margin-top: 14px;
+    width: 100%;
+    height: 28px;
+    border-radius: 8px;
+    background: var(--blue-soft-strong);
+}

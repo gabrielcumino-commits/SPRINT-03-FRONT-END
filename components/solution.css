@@ -1,0 +1,47 @@
+.solution-card {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    padding: 35px;
+    min-height: 260px;
+
+    transition: 0.3s;
+}
+
+.solution-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--border-hover);
+    background: var(--surface-hover);
+}
+
+.card-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: var(--blue-soft);
+    color: var(--blue-light);
+    display: grid;
+    place-items: center;
+    margin-bottom: 30px;
+}
+
+.card-icon svg {
+    width: 22px;
+    height: 22px;
+}
+
+.card-number {
+    color: var(--muted-soft);
+    font-size: 13px;
+    margin-bottom: 18px;
+}
+
+.solution-card h3 {
+    font-size: 25px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.solution-card p {
+    color: var(--muted);
+    font-size: 14px;
+}
