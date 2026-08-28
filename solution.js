@@ -1,0 +1,87 @@
+// Conteúdo da seção A Solução (#solucao)
+window.PARTIALS = window.PARTIALS || {};
+
+window.PARTIALS.solution = `
+    <div class="section-title">
+
+        <span>01 — A SOLUÇÃO</span>
+
+        <h2>
+            Uma proposta criada
+            <strong>para o Brasil.</strong>
+        </h2>
+
+        <p>
+            A JOVI busca apresentar uma alternativa de smartphone
+            alinhada ao contexto brasileiro, unindo tecnologia,
+            praticidade e uma experiência pensada para seus usuários.
+        </p>
+
+    </div>
+
+
+    <div class="solution-grid">
+
+        <article class="solution-card">
+            <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                    <rect x="3" y="7" width="16" height="10" rx="2"/>
+                    <path d="M19 10h2v4h-2z" fill="currentColor" stroke="none"/>
+                    <path d="M7 10v4M11 10v4" />
+                </svg>
+            </div>
+            <div class="card-number">01</div>
+
+            <h3>
+                Tecnologia
+            </h3>
+
+            <p>
+                Bateria de longa duração e câmera co-desenvolvida
+                com a ZEISS, voltadas às necessidades do usuário
+                brasileiro.
+            </p>
+        </article>
+
+
+        <article class="solution-card">
+            <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                    <rect x="4" y="3" width="16" height="18" rx="3"/>
+                    <path d="M9 18h6" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="card-number">02</div>
+
+            <h3>
+                Praticidade
+            </h3>
+
+            <p>
+                OriginOS 6 oferece uma experiência simples e
+                intuitiva, com IA integrada para facilitar o
+                dia a dia.
+            </p>
+        </article>
+
+
+        <article class="solution-card">
+            <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                    <path d="M12 3l8 4v5c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V7z"/>
+                </svg>
+            </div>
+            <div class="card-number">03</div>
+
+            <h3>
+                Brasil
+            </h3>
+
+            <p>
+                Produção 100% nacional na Zona Franca de Manaus,
+                com preço justo e suporte em território brasileiro.
+            </p>
+        </article>
+
+    </div>
+`;

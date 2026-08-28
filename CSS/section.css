@@ -1,0 +1,42 @@
+/* =========================
+   ESTRUTURA BASE DE SEÇÃO
+   (usada por Solução, Público, Galeria, Equipe e Contato)
+========================= */
+
+.section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 120px 30px;
+}
+
+.section-title {
+    max-width: 750px;
+    margin-bottom: 70px;
+}
+
+.section-title > span,
+.audience-content > span {
+    color: var(--muted-soft);
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.section-title h2,
+.audience-content h2 {
+    font-size: clamp(40px, 5vw, 65px);
+    line-height: 1;
+    letter-spacing: -2px;
+    margin: 18px 0 25px;
+}
+
+.section-title h2 strong,
+.audience-content h2 strong {
+    color: var(--blue-light);
+    font-weight: 600;
+}
+
+.section-title p,
+.audience-content > p {
+    color: var(--muted);
+    max-width: 650px;
+}

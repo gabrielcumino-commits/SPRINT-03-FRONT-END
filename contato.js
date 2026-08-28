@@ -1,0 +1,62 @@
+// Conteúdo da seção Contato (#contato)
+window.PARTIALS = window.PARTIALS || {};
+
+window.PARTIALS.contact = `
+    <div class="section-title">
+
+        <span>05 — CONTATO</span>
+
+        <h2>
+            Fale com a
+            <strong>equipe JOVI.</strong>
+        </h2>
+
+        <p>
+            Dúvidas sobre o projeto ou sobre a solução? Manda uma
+            mensagem ou usa um dos canais abaixo.
+        </p>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+        <form class="contact-form" action="#" method="post">
+
+            <div class="form-row">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            </div>
+
+            <div class="form-row">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+            </div>
+
+            <div class="form-row">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte o que você quer saber sobre a JOVI" required></textarea>
+            </div>
+
+            <button type="submit" class="button primary">
+                Enviar mensagem
+            </button>
+
+        </form>
+
+        <address class="contact-info">
+
+            <h3>Outros canais</h3>
+
+            <ul>
+                <li><span>E-mail</span>contato@jovimobile.com.br</li>
+                <li><span>Site</span>jovimobile.com</li>
+                <li><span>Instagram</span>@jovismartphone</li>
+                <li><span>Suporte</span>0800 gratuito · seg–sex, 9h–18h</li>
+                <li><span>Fábrica</span>Zona Franca de Manaus, Brasil</li>
+            </ul>
+
+        </address>
+
+    </div>
+`;
