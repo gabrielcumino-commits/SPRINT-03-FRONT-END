@@ -42,33 +42,106 @@
         </nav>
     </header>
     <main>
-        <section id="inicio" class="hero">
-            <div class="hero-content">
-                <span class="tag">SMARTPHONE BRASIL</span>
-                <h1>Tecnologia pensada <span>para o Brasil.</span></h1>
-                <p>A JOVI apresenta uma nova proposta de smartphone, desenvolvida para aproximar tecnologia de ponta e necessidades reais do público brasileiro.</p>
-                <div class="hero-buttons"><a href="#solucao" class="button primary">Conheça a solução</a><a href="#galeria" class="button secondary">Ver projeto</a></div>
-                <dl class="hero-stats"><div><dt>Bateria</dt><dd>até 6.500 mAh</dd></div><div><dt>Câmera</dt><dd>co-desenvolvida ZEISS</dd></div><div><dt>Produção</dt><dd>Zona Franca de Manaus</dd></div></dl>
-            </div>
-            <div class="phone-area"><div class="phone"><div class="phone-screen"><div class="phone-camera"></div><div class="phone-content"><strong>JOVI</strong><span>Smartphone Brasil</span></div><div class="phone-glow"></div></div></div></div>
-        </section>
+        <section id="inicio" class="hero" data-include="pages/hero.html"></section>
         <section id="solucao" class="section solution">
-            <div class="section-title"><span>01 — A SOLUÇÃO</span><h2>Uma proposta criada <strong>para o Brasil.</strong></h2><p>A JOVI busca apresentar uma alternativa de smartphone alinhada ao contexto brasileiro, unindo tecnologia, praticidade e uma experiência pensada para seus usuários.</p></div>
-            <div class="solution-grid"><article class="solution-card"><div class="card-icon">01</div><div class="card-number">01</div><h3>Tecnologia</h3><p>Bateria de longa duração e câmera co-desenvolvida com a ZEISS, voltadas às necessidades do usuário brasileiro.</p></article><article class="solution-card"><div class="card-icon">02</div><div class="card-number">02</div><h3>Praticidade</h3><p>OriginOS 6 oferece uma experiência simples e intuitiva, com IA integrada para facilitar o dia a dia.</p></article><article class="solution-card"><div class="card-icon">03</div><div class="card-number">03</div><h3>Brasil</h3><p>Produção 100% nacional na Zona Franca de Manaus, com preço justo e suporte em território brasileiro.</p></article></div>
+            <div class="section-title">
+                <span>01 — A SOLUÇÃO</span>
+                <h2>Uma proposta criada <strong>para o Brasil.</strong></h2>
+                <p>A JOVI busca apresentar uma alternativa de smartphone alinhada ao contexto brasileiro, unindo tecnologia, praticidade e uma experiência pensada para seus usuários.</p>
+            </div>
+            <div class="solution-grid">
+                <article class="solution-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                            <rect x="3" y="7" width="16" height="10" rx="2"></rect>
+                            <path d="M19 10h2v4h-2z" fill="currentColor" stroke="none"></path>
+                            <path d="M7 10v4M11 10v4"></path>
+                        </svg>
+                    </div>
+                    <div class="card-number">01</div>
+                    <h3>Tecnologia</h3>
+                    <p>Bateria de longa duração e câmera co-desenvolvida com a ZEISS, voltadas às necessidades do usuário brasileiro.</p>
+                </article>
+                <article class="solution-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                            <rect x="4" y="3" width="16" height="18" rx="3"></rect>
+                            <path d="M9 18h6" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                    <div class="card-number">02</div>
+                    <h3>Praticidade</h3>
+                    <p>OriginOS 6 oferece uma experiência simples e intuitiva, com IA integrada para facilitar o dia a dia.</p>
+                </article>
+                <article class="solution-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                            <path d="M12 3l8 4v5c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V7z"></path>
+                        </svg>
+                    </div>
+                    <div class="card-number">03</div>
+                    <h3>Brasil</h3>
+                    <p>Produção 100% nacional na Zona Franca de Manaus, com preço justo e suporte em território brasileiro.</p>
+                </article>
+            </div>
         </section>
         <section id="publico" class="section audience">
-            <div class="audience-image"><div class="mini-phone"><span>JOVI</span></div></div>
-            <div class="audience-content"><span>02 — PÚBLICO-ALVO</span><h2>Para quem é a <strong>JOVI?</strong></h2><p>A solução é direcionada a usuários que buscam uma experiência de smartphone adequada à realidade brasileira, valorizando tecnologia, praticidade e acessibilidade.</p><div class="audience-items"><div><div class="audience-icon">01</div><div><h3>Jovens adultos brasileiros</h3><p>18 a 35 anos, ativos em redes sociais, valorizam câmera, design e experiência.</p></div></div><div><div class="audience-icon">02</div><div><h3>Mid-market · Série Y</h3><p>Priorizam bateria, robustez e custo-benefício no dia a dia.</p></div></div><div><div class="audience-icon">03</div><div><h3>Premium acessível · Série V</h3><p>Querem câmera e desempenho no nível de um topo de linha, sem pagar o mesmo preço.</p></div></div></div></div>
+            <div class="audience-image">
+                <div class="mini-phone">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+                        <circle cx="12" cy="12" r="9"></circle>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                </div>
+            </div>
+            <div class="audience-content">
+                <span>02 — PÚBLICO-ALVO</span>
+                <h2>Para quem é a <strong>JOVI?</strong></h2>
+                <p>A solução é direcionada a usuários que buscam uma experiência de smartphone adequada à realidade brasileira, valorizando tecnologia, praticidade e acessibilidade.</p>
+                <div class="audience-items">
+                    <div>
+                        <div class="audience-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                <circle cx="12" cy="8" r="3.5"></circle>
+                                <path d="M4.5 20c1.2-3.8 4-6 7.5-6s6.3 2.2 7.5 6"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3>Jovens adultos brasileiros</h3>
+                            <p>18 a 35 anos, ativos em redes sociais, valorizam câmera, design e experiência.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="audience-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                <rect x="4" y="4" width="7" height="7" rx="1.5"></rect>
+                                <rect x="13" y="4" width="7" height="7" rx="1.5"></rect>
+                                <rect x="4" y="13" width="7" height="7" rx="1.5"></rect>
+                                <rect x="13" y="13" width="7" height="7" rx="1.5"></rect>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3>Mid-market · Série Y</h3>
+                            <p>Priorizam bateria, robustez e custo-benefício no dia a dia.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="audience-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                <path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3>Premium acessível · Série V</h3>
+                            <p>Querem câmera e desempenho no nível de um topo de linha, sem pagar o mesmo preço.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="galeria" class="section gallery">
-            <div class="section-title"><span>03 — GALERIA</span><h2>Conheça o conceito <strong>JOVI.</strong></h2><p>Uma representação visual da proposta do projeto Smartphone Brasil: aparelho, interface e diferenciais.</p></div><div class="gallery-grid"><article class="gallery-item large"><div class="gallery-phone"><div class="camera"></div><div class="gallery-logo">JOVI</div></div><div class="gallery-caption"><span>CONCEITO 01</span><h3>Design do Smartphone</h3></div></article><article class="gallery-item"><div class="gallery-mockup"><span class="dot dot-a"></span><span class="dot dot-b"></span><span class="bar"></span></div><div class="gallery-content"><span>CONCEITO 02</span><h3>Interface OriginOS</h3><p>Hub de IA Origin Island, com widgets espaciais e ecossistema multi-dispositivo.</p></div></article><article class="gallery-item"><div class="gallery-icon">03</div><div class="gallery-content"><span>CONCEITO 03</span><h3>Resistência do aparelho</h3><p>Estrutura reforçada contra quedas do dia a dia, pensada para o uso real.</p></div></article></div>
-        </section>
-        <section id="equipe" class="section team">
-            <div class="section-title"><span>04 — NOSSA EQUIPE</span><h2>Quem desenvolveu <strong>a JOVI?</strong></h2><p>Conheça os integrantes responsáveis pelo desenvolvimento do projeto.</p></div><div class="team-grid"><article class="member"><div class="member-top"><span class="member-avatar">MP</span><div class="member-number">01</div></div><h3>Murillo Padula</h3><span>Equipe JOVI</span></article><article class="member"><div class="member-top"><span class="member-avatar">RM</span><div class="member-number">02</div></div><h3>Renato Munhoz</h3><span>Equipe JOVI</span></article><article class="member"><div class="member-top"><span class="member-avatar">LB</span><div class="member-number">03</div></div><h3>Leonardo Basseti</h3><span>Equipe JOVI</span></article><article class="member"><div class="member-top"><span class="member-avatar">GM</span><div class="member-number">04</div></div><h3>Guilherme Mingues</h3><span>Equipe JOVI</span></article><article class="member"><div class="member-top"><span class="member-avatar">GV</span><div class="member-number">05</div></div><h3>Gabriel Vianna</h3><span>Equipe JOVI</span></article></div>
-        </section>
-        <section id="contato" class="section contact">
-            <div class="section-title"><span>05 — CONTATO</span><h2>Fale com a <strong>equipe JOVI.</strong></h2><p>Dúvidas sobre o projeto ou sobre a solução? Manda uma mensagem ou usa um dos canais abaixo.</p></div><div class="contact-grid"><form class="contact-form" id="contactForm"><div class="form-row"><label for="nome">Nome</label><input type="text" id="nome" name="nome" placeholder="Seu nome completo" required></div><div class="form-row"><label for="email">E-mail</label><input type="email" id="email" name="email" placeholder="voce@email.com" required></div><div class="form-row"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte o que você quer saber sobre a JOVI" required></textarea></div><button type="submit" class="button primary">Enviar mensagem</button></form><address class="contact-info"><h3>Outros canais</h3><ul><li><span>E-mail</span>contato@jovimobile.com.br</li><li><span>Site</span>jovimobile.com</li><li><span>Instagram</span>@jovismartphone</li><li><span>Suporte</span>0800 gratuito · seg–sex, 9h–18h</li><li><span>Fábrica</span>Zona Franca de Manaus, Brasil</li></ul></address></div>
-        </section>
+        <section id="galeria" class="section gallery" data-include="pages/galeria.html"></section>
+        <section id="equipe" class="section team" data-include="pages/equipe.html"></section>
+        <section id="contato" class="section contact" data-include="pages/contato.html"></section>
     </main>
     <footer class="footer"><div class="footer-logo">JOVI</div><p>Smartphone Brasil · 2026</p><a href="#inicio">Voltar ao topo ↑</a></footer>
     <script src="script.js"></script>

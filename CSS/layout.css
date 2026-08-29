@@ -45,9 +45,7 @@
 }
 
 
-/* =========================
-   SOLUÇÃO — ESTRUTURA
-========================= */
+
 
 .solution {
     border-top: 1px solid var(--border);
@@ -60,9 +58,7 @@
 }
 
 
-/* =========================
-   PÚBLICO-ALVO — ESTRUTURA
-========================= */
+
 
 .audience {
     display: grid;
@@ -96,9 +92,7 @@
 }
 
 
-/* =========================
-   GALERIA — ESTRUTURA
-========================= */
+
 
 .gallery {
     border-top: 1px solid var(--border);
@@ -119,9 +113,6 @@
 }
 
 
-/* =========================
-   EQUIPE — ESTRUTURA
-========================= */
 
 .team {
     border-top: 1px solid var(--border);
@@ -134,9 +125,6 @@
 }
 
 
-/* =========================
-   CONTATO — ESTRUTURA
-========================= */
 
 .contact {
     border-top: 1px solid var(--border);
@@ -150,9 +138,7 @@
 }
 
 
-/* =========================
-   RODAPÉ — ESTRUTURA
-========================= */
+
 
 .footer {
     border-top: 1px solid var(--border);

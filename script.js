@@ -31,9 +31,6 @@ async function carregarFragmento(elemento) {
 }
 
 
-// ==============================
-// ROLAGEM SUAVE
-// ==============================
 function initRolagemSuave() {
     document.querySelectorAll('a[href^="#"]').forEach(function (link) {
         link.addEventListener("click", function (event) {
@@ -47,9 +44,7 @@ function initRolagemSuave() {
 }
 
 
-// ==============================
-// MENU MOBILE (HAMBÚRGUER)
-// ==============================
+
 function initMenuMobile() {
     const navToggle = document.getElementById("navToggle");
     const navLinks = document.getElementById("navLinks");
